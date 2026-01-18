@@ -151,6 +151,7 @@ if st.button("Generate Itinerary"):
                     file_name="travel_plan.pdf",
                     mime="application/pdf"
                 )
+                st.write(answer)
 
         except requests.exceptions.RequestException as e:
             st.error(f"Request failed: {e}")
