@@ -1,6 +1,5 @@
 streamlit
 requests
 python-dotenv
-fpdf
-io
+
 
