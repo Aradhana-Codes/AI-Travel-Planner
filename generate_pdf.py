@@ -32,8 +32,11 @@ def create_pdf(itinerary_text):
             pdf.multi_cell(160, 8, line)
         pdf.ln(5)
 
-    # Instead of writing to a file, output to bytes
+    # Output PDF to bytes (works on both local and Streamlit Cloud)
     pdf_bytes = pdf.output(dest='S')
+    if isinstance(pdf_bytes, str):
+        pdf_bytes = pdf_bytes.encode('latin1')  # encode only if it is a string
+
     pdf_buffer = BytesIO(pdf_bytes)
     pdf_buffer.seek(0)
     return pdf_buffer
