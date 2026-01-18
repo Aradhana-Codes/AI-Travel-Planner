@@ -155,6 +155,7 @@ if st.button("Generate Itinerary"):
         - Complete ALL {days} days
         - Do not stop mid-sentence
         - Finish the itinerary fully
+        - Do not exceed budget more than that mentioned.
 
         Make the itinerary easy to read, practical, and detailed.
         """
