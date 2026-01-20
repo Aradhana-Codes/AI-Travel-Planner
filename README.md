@@ -1,5 +1,6 @@
                                                    AI TRAVEL PLANNER
-
+                        Live Project Link: https://ai-travel-planner-owoceixvorkokganzms94u.streamlit.app 
+                                    
 An AI-powered web application that generates personalized travel itineraries based on user preferences 
 such as destination, budget, number of days, and travel style. 
 The system uses NLP-based AI models to create intelligent, budget-aware, day-wise travel plans and 
