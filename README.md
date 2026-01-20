@@ -1,12 +1,13 @@
-                                                   AI TRAVEL PLANNER
-                        **Live Project Link:** [Click here to open](https://ai-travel-planner-owoceixvorkokganzms94u.streamlit.app/)
-                                    
+# AI TRAVEL PLANNER                                                   
+                                                   
+[Live Project link](https://ai-travel-planner-owoceixvorkokganzms94u.streamlit.app/)
+                      
 An AI-powered web application that generates personalized travel itineraries based on user preferences 
 such as destination, budget, number of days, and travel style. 
 The system uses NLP-based AI models to create intelligent, budget-aware, day-wise travel plans and 
 provides them as on-screen output and downloadable PDF files.
 
-Features:
+## Features:
 - Personalized travel itinerary generation
 - Budget-aware planning with day-wise cost estimation
 - Real-time currency conversion (USD → INR)
@@ -15,7 +16,7 @@ Features:
 - Simple and user-friendly web interface
 - Cloud-deployed and accessible from anywhere
 
-The project follows a layered architecture:
+## The project follows a layered architecture:
 
 - User Interface Layer (Streamlit UI)
 - Application Layer (Input processing & prompt construction)
@@ -24,14 +25,14 @@ The project follows a layered architecture:
 - Output Layer (PDF generation & display)
 - Deployment Layer (Streamlit Cloud)
 
-Tools & Technologies Used
+## Tools & Technologies Used
 - Programming Language: Python
 - Frontend: Streamlit
 - Backend: Python (Streamlit backend logic)
 - Artificial Intelligence / NLP: OpenRouter API
 - GPT-based conversational AI models
 
-Libraries:
+### Libraries:
 - streamlit: Web application framework
 - requests: API communication
 - fpdf: PDF generation
@@ -39,7 +40,7 @@ Libraries:
 - textwrap: Text formatting
 - python-dotenv: Environment variable management
 
-Development & Deployment Tools:
+### Development & Deployment Tools:
 - Visual Studio Code (IDE)
 - Git & GitHub (Version control)
 - Streamlit Cloud (Deployment)
